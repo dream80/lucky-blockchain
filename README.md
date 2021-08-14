@@ -36,9 +36,9 @@ Find the height of the block with the end of 6, and there is a special reward
 ends with 6 , reword 6  
 ends with 66 , reword 66  
 ends with 666 , reword 666  
-edns with 6666 , reword 666  
+ends with 6666 , reword 666  
 
-666 Is the biggest reward  
+666 is the biggest reward  
 
 
 
