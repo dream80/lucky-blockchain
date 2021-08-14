@@ -34,8 +34,8 @@ def monkey_patch_click() -> None:
 
 
 @click.group(
-    help=f"\n  Manage chia blockchain infrastructure ({__version__})\n",
-    epilog="Try 'chia start node', 'chia netspace -d 192', or 'chia show -s'",
+    help=f"\n  Manage lucky blockchain infrastructure ({__version__})\n",
+    epilog="Try 'lucky start node', 'lucky netspace -d 192', or 'lucky show -s'",
     context_settings=CONTEXT_SETTINGS,
 )
 @click.option("--root-path", default=DEFAULT_ROOT_PATH, help="Config file root", type=click.Path(), show_default=True)
@@ -47,12 +47,12 @@ def cli(ctx: click.Context, root_path: str) -> None:
     ctx.obj["root_path"] = Path(root_path)
 
 
-@cli.command("version", short_help="Show chia version")
+@cli.command("version", short_help="Show lucky version")
 def version_cmd() -> None:
     print(__version__)
 
 
-@cli.command("run_daemon", short_help="Runs chia daemon")
+@cli.command("run_daemon", short_help="Runs lucky daemon")
 @click.pass_context
 def run_daemon_cmd(ctx: click.Context) -> None:
     from chia.daemon.server import async_run_daemon
