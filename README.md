@@ -1,7 +1,9 @@
 
 ##  Act fast
 
+```diff
 + If you want to get more coins, be quick. The block reward will change from 18 to 6 in a few days, specifically after the block height reaches **138240**.
+```
 
 # What is Lucky
 
