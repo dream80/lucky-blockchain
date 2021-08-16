@@ -1,4 +1,9 @@
-# lucky_blockchain 
+
+##  Act fast
+
+<font color="green">If you want to get more coins, be quick. The block reward will change from 18 to 6 in a few days, specifically after the block height reaches **138240**.</font>
+
+# What is Lucky
 
 There is no doubt that this is a FORK of chia, but we use it to express different meanings
 
@@ -55,9 +60,11 @@ ends with 6666 , reword 666
 # FullNode
 
 node:dns-introducer.luckysix.top, Port:16664  
+
 ![iamge](guide/img/connect.jpg)  
 
 node:introducer.luckysix.top, Port:16665  
+
 ![iamge](guide/img/connect2.jpg)  
 
 
@@ -82,7 +89,40 @@ port:16664
 
 ![iamge](guide/img/connect3.jpg)  
 
-[More Node]https://penny-faucets-for-chia-forks.net/peers/#Lucky-SIX  
+[MoreNode]https://penny-faucets-for-chia-forks.net/peers/#Lucky-SIX  
+
+
+# Some common problems
+
+##  Why there is no reward
+
+Why the proof was found, but the coins were not obtained？
+
+The most likely thing is that your wallet has not been synchronized yet, and the rewards won will only be displayed if the wallet is synchronized.
+
+## How to sync quickly?
+
+The sync is too slow and the coins are token by others, what should I do? The quickest way is to directly use the synchronized DB file. The method of use is as follows:
+
+1. Close the software after successful installation of Lucky
+
+2. Download the DB file
+
+3. Replace the local DB file
+
+The local DB file path is generally: C:\Users\tony\\.lucky\mainnet\  **tony** is the user name of your computer
+
+## How to get more coins
+
+In the case that the plots file remains unchanged, you can get a higher probability of block explosions by making yourself a shared node
+
+There are several ways to share your own nodes:
+
+1. Port mapping (port:16664)
+
+2. DMZ
+
+3. upnp
 
 
 
