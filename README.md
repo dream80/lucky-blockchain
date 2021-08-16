@@ -1,7 +1,7 @@
 
 ##  Act fast
 
-![iamge](guide/img/Important.jpg)  
+![iamge](guide/img/Importants.jpg)  
 
 If you want to get more coins, be quick. The block reward will change from 18 to 6 in a few days, specifically after the block height reaches **138240**.
 
