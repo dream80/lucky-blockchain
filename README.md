@@ -54,8 +54,12 @@ ends with 6666 , reword 666
 
 # FullNode
 
-port:16664  
-  
+
+node:introducer.luckysix.top, Port:16665
+node:dns-introducer.luckysix.top, Port:16664
+
+
+IP list:
 122.51.136.140  
 52.206.11.255  
 73.150.163.222  
@@ -72,3 +76,4 @@ port:16664
 157.90.3.141  
 60.174.207.85  
 93.91.157.22  
+port:16664  
