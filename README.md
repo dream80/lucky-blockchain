@@ -54,9 +54,11 @@ ends with 6666 , reword 666
 
 # FullNode
 
+node:dns-introducer.luckysix.top, Port:16664  
+![iamge](guide/img/connect.jpg)  
 
-node:introducer.luckysix.top, Port:16665
-node:dns-introducer.luckysix.top, Port:16664
+node:introducer.luckysix.top, Port:16665  
+![iamge](guide/img/connect2.jpg)  
 
 
 IP list:
@@ -77,3 +79,10 @@ IP list:
 60.174.207.85  
 93.91.157.22  
 port:16664  
+
+![iamge](guide/img/connect3.jpg)  
+
+[More Node]https://penny-faucets-for-chia-forks.net/peers/#Lucky-SIX  
+
+
+
