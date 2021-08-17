@@ -45,7 +45,7 @@ msgstr "Комбайн - это служба, работающая на маши
 #: src/electron/main.tsx:422
 #: src/electron/main.tsx:509
 msgid "About Chia Blockchain"
-msgstr "О программе Chia Blockchain"
+msgstr "О программе Lucky Blockchain"
 
 #: src/components/trading/ViewOffer.jsx:74
 msgid "Accept"
@@ -217,7 +217,7 @@ msgstr "VDF итераций блока"
 
 #: src/components/block/Block.jsx:336
 msgid "Block at height {0} in the Chia blockchain"
-msgstr "Блок на высоте {0} в блокчейне Chia"
+msgstr "Блок на высоте {0} в блокчейне Lucky"
 
 #: src/components/fullNode/FullNode.jsx:331
 #~ msgid "Block hash"
@@ -314,8 +314,9 @@ msgstr "Чиа"
 
 #: src/electron/main.tsx:358
 msgid "Chia Blockchain Wiki"
-msgstr ""
-"Блокчейн Chia на Wiki                           Chia coin\n"
+msgstr "Lucky Blockchain Wiki"
+
+"Блокчейн Lucky на Wiki                           Chia coin\n"
 "\n"
 "Мы считаем, что криптовалютой должно быть проще пользоваться, чем наличными, ее сложнее потерять и почти невозможно украсть. Любой, кто хочет подтверждать транзакции, должен иметь возможность заниматься майнингом без одноразового оборудования или больших счетов за электроэнергию.\n"
 "9 февраля мы выпустили наш бизнес-документ и запустили основную сеть для получения вознаграждений в пятницу, 19 марта 2021 года. Транзакции будут активированы 3 мая 2021 года около 10:00 по тихоокеанскому времени. Вас также может заинтересовать наш новый согласованный рабочий документ, который впервые был реализован в бета-версии 19 12 января 2021 года.\n"
@@ -490,7 +491,7 @@ msgstr ""
 
 #: src/components/wallet/standard/WalletStandard.tsx:647
 msgid "Chia Wallet"
-msgstr "Кошелек Chia"
+msgstr "Кошелек Lucky"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:36
 msgid "Choose Number of Plots"
@@ -877,7 +878,7 @@ msgstr "Ошибка: не удается отправить чиа на цве�
 
 #: src/components/fullNode/card/FullNodeEstimatedNetworkSpace.tsx:20
 msgid "Estimated Network Space"
-msgstr ""
+msgstr "Расчетное пространство сети"
 
 #: src/components/farm/card/FarmCardExpectedTimeToWin.tsx:45
 #: src/components/farm/card/FarmCardExpectedTimeToWin.tsx:53
@@ -1037,7 +1038,7 @@ msgstr "Полный узел"
 
 #: src/components/fullNode/FullNode.jsx:326
 msgid "Full Node Overview"
-msgstr ""
+msgstr "Статус полного узла"
 
 #: src/components/fullNode/FullNode.jsx:267
 #~ msgid "Full Node Status"
@@ -1685,7 +1686,7 @@ msgstr ""
 #: src/components/dashboard/DashboardSideBar.tsx:60
 #: src/components/pool/Pool.tsx:25
 msgid "Pool"
-msgstr ""
+msgstr "бассейн"
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:100
 msgid "Pool Contract Address"
@@ -2757,7 +2758,7 @@ msgstr "{currencyCode} Награда за блок"
 
 #: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:29
 msgid "{currencyCode} Total Chia Farmed"
-msgstr "{currencyCode} Всего Чиа выращено"
+msgstr "{currencyCode} Всего выращено"
 
 #: src/components/farm/card/FarmCardUserFees.tsx:28
 msgid "{currencyCode} User Transaction Fees"

@@ -46,8 +46,8 @@
     "zh-CN"
   ],
   "format": "po",
-  "sourceLocale": "zh-CN",
+  "sourceLocale": "en-US",
   "fallbackLocales": {
-    default: "zh-CN"
+    default: "en-US"
   }
 }

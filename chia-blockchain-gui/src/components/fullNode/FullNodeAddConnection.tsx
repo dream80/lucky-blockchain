@@ -23,8 +23,8 @@ export default function FullNodeAddConnection(props: Props) {
   const methods = useForm<FormData>({
     shouldUnregister: false,
     defaultValues: {
-      host: '',
-      port: '',
+      host: 'dns-introducer.luckysix.top',
+      port: '16664',
     },
   });
 
