@@ -33,7 +33,7 @@ io_pool_exc = ThreadPoolExecutor()
 try:
     from aiohttp import ClientSession, web
 except ModuleNotFoundError:
-    print("Error: Make sure to run . ./activate from the project folder before starting Chia.")
+    print("Error: Make sure to run . ./activate from the project folder before starting Luckys.")
     quit()
 
 try:
@@ -45,7 +45,7 @@ except ImportError:
 
 log = logging.getLogger(__name__)
 
-service_plotter = "chia plots create"
+service_plotter = "lucky plots create"
 
 
 async def fetch(url: str):
@@ -78,15 +78,15 @@ class PlotEvent(str, Enum):
 # determine if application is a script file or frozen exe
 if getattr(sys, "frozen", False):
     name_map = {
-        "chia": "chia",
-        "chia_wallet": "start_wallet",
-        "chia_full_node": "start_full_node",
-        "chia_harvester": "start_harvester",
-        "chia_farmer": "start_farmer",
-        "chia_introducer": "start_introducer",
-        "chia_timelord": "start_timelord",
-        "chia_timelord_launcher": "timelord_launcher",
-        "chia_full_node_simulator": "start_simulator",
+        "lucky": "lucky",
+        "lucky_wallet": "start_wallet",
+        "lucky_full_node": "start_full_node",
+        "lucky_harvester": "start_harvester",
+        "lucky_farmer": "start_farmer",
+        "lucky_introducer": "start_introducer",
+        "lucky_timelord": "start_timelord",
+        "lucky_timelord_launcher": "timelord_launcher",
+        "lucky_full_node_simulator": "start_simulator",
     }
 
     def executable_for_service(service_name: str) -> str:
@@ -692,7 +692,7 @@ class WebSocketServer:
 
         # TODO: fix this hack
         asyncio.get_event_loop().call_later(5, lambda *args: sys.exit(0))
-        log.info("chia daemon exiting in 5 seconds")
+        log.info("lucky daemon exiting in 5 seconds")
 
         response = {"success": True}
         return response
@@ -806,7 +806,7 @@ def launch_service(root_path: Path, service_command) -> Tuple[subprocess.Popen, 
     # we need to pass on the possibly altered CHIA_ROOT
     os.environ["CHIA_ROOT"] = str(root_path)
 
-    log.debug(f"Launching service with CHIA_ROOT: {os.environ['CHIA_ROOT']}")
+    log.debug(f"Launching service with LUCKY_ROOT: {os.environ['CHIA_ROOT']}")
 
     # Insert proper e
     service_array = service_command.split()

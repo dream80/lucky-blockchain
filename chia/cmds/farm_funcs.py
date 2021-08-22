@@ -207,7 +207,7 @@ async def summary(rpc_port: int, wallet_rpc_port: int, harvester_rpc_port: int, 
         print("Farming")
 
     if amounts is not None:
-        print(f"Total chia farmed: {amounts['farmed_amount'] / units['chia']}")
+        print(f"Total lucky farmed: {amounts['farmed_amount'] / units['chia']}")
         print(f"User transaction fees: {amounts['fee_amount'] / units['chia']}")
         print(f"Block rewards: {(amounts['farmer_reward_amount'] + amounts['pool_reward_amount']) / units['chia']}")
         print(f"Last height farmed: {amounts['last_height_farmed']}")
@@ -268,8 +268,8 @@ async def summary(rpc_port: int, wallet_rpc_port: int, harvester_rpc_port: int, 
 
     if amounts is None:
         if wallet_not_running:
-            print("For details on farmed rewards and fees you should run 'chia start wallet' and 'chia wallet show'")
+            print("For details on farmed rewards and fees you should run 'lucky start wallet' and 'lucky wallet show'")
         elif wallet_not_ready:
-            print("For details on farmed rewards and fees you should run 'chia wallet show'")
+            print("For details on farmed rewards and fees you should run 'lucky wallet show'")
     else:
-        print("Note: log into your key using 'chia wallet show' to see rewards for each key")
+        print("Note: log into your key using 'lucky wallet show' to see rewards for each key")

@@ -38,7 +38,7 @@ async def create_start_daemon_connection(root_path: Path) -> Optional[DaemonProx
 async def async_start(root_path: Path, group: str, restart: bool) -> None:
     daemon = await create_start_daemon_connection(root_path)
     if daemon is None:
-        print("Failed to create the chia daemon")
+        print("Failed to create the lucky daemon")
         return None
 
     for service in services_for_groups(group):

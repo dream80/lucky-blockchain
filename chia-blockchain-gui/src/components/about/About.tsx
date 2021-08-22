@@ -70,7 +70,7 @@ const Spacer = styled.div`
   margin-bottom: 1rem;
 `;
 
-const url = 'https://chia.net';
+const url = 'https://www.lucksix.top';
 
 type Props = {
   version: string;
@@ -114,7 +114,7 @@ export default function About(props: Props) {
         </StyledLink>
         <StyledSubTitle>{description}</StyledSubTitle>
         <Spacer />
-        <div className="copyright">Copyright (c) 2021 Chia Network</div>
+        <div className="copyright">Copyright (c) 2021 Lucky Network</div>
         <Spacer />
         <VersionsTable>
           {versions?.electron && (
@@ -144,7 +144,7 @@ export default function About(props: Props) {
         </VersionsTable>
 
         <BugReport
-          href="https://github.com/Chia-Network/chia-blockchain/issues"
+          href="https://github.com/dream80/lucky-blockchain"
           target="_blank"
         >
           Report an issue

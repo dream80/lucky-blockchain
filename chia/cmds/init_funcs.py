@@ -50,7 +50,7 @@ def check_keys(new_root: Path) -> None:
     keychain: Keychain = Keychain()
     all_sks = keychain.get_all_private_keys()
     if len(all_sks) == 0:
-        print("No keys are present in the keychain. Generate them with 'chia keys generate'")
+        print("No keys are present in the keychain. Generate them with 'lucky keys generate'")
         return None
 
     config: Dict = load_config(new_root, "config.yaml")

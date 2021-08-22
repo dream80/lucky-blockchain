@@ -96,11 +96,11 @@ async def send(args: dict, wallet_client: WalletRpcClient, fingerprint: int) -> 
         tx = await wallet_client.get_transaction(wallet_id, tx_id)
         if len(tx.sent_to) > 0:
             print(f"Transaction submitted to nodes: {tx.sent_to}")
-            print(f"Do chia wallet get_transaction -f {fingerprint} -tx 0x{tx_id} to get status")
+            print(f"Do Lucky wallet get_transaction -f {fingerprint} -tx 0x{tx_id} to get status")
             return None
 
     print("Transaction not yet submitted to nodes")
-    print(f"Do 'chia wallet get_transaction -f {fingerprint} -tx 0x{tx_id}' to get status")
+    print(f"Do 'Lucky wallet get_transaction -f {fingerprint} -tx 0x{tx_id}' to get status")
 
 
 async def get_address(args: dict, wallet_client: WalletRpcClient, fingerprint: int) -> None:
@@ -157,7 +157,7 @@ async def get_wallet(wallet_client: WalletRpcClient, fingerprint: int = None) ->
     else:
         fingerprints = await wallet_client.get_public_keys()
     if len(fingerprints) == 0:
-        print("No keys loaded. Run 'chia keys generate' or import a key")
+        print("No keys loaded. Run 'Lucky keys generate' or import a key")
         return None
     if len(fingerprints) == 1:
         fingerprint = fingerprints[0]
@@ -190,7 +190,7 @@ async def get_wallet(wallet_client: WalletRpcClient, fingerprint: int = None) ->
             use_cloud = True
             if "backup_path" in log_in_response:
                 path = log_in_response["backup_path"]
-                print(f"Backup file from backup.chia.net downloaded and written to: {path}")
+                print(f"Backup file from backup.luckysix.top downloaded and written to: {path}")
                 val = input("Do you want to use this file to restore from backup? (Y/N) ")
                 if val.lower() == "y":
                     log_in_response = await wallet_client.log_in_and_restore(fingerprint, path)
@@ -243,7 +243,7 @@ async def execute_with_wallet(wallet_rpc_port: int, fingerprint: int, extra_para
         if isinstance(e, aiohttp.ClientConnectorError):
             print(
                 f"Connection error. Check if the wallet is running at {wallet_rpc_port}. "
-                "You can run the wallet via:\n\tchia start wallet"
+                "You can run the wallet via:\n\tLucky start wallet"
             )
         else:
             print(f"Exception from 'wallet' {e}")
