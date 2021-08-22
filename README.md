@@ -1,3 +1,4 @@
+### Please download the latest version, otherwise it will fail to sync  
 
 ##  Act fast
 
@@ -53,7 +54,10 @@ ends with 6666 , reword 666
 # DownLoad 
 [Windows](https://github.com/dream80/lucky-blockchain/releases/download/v1.2.10.10/LuckySetup-1.2.10.10.exe)
 
-# Group
+# Group  
+
+Join the group, you can lucky coins for free , We plan to send some lucky coins to group members every week  
+
 [QQ](https://jq.qq.com/?_wv=1027&k=RJp9meKz)
 [Discord](https://discord.gg/pgdj4snppb)
 
