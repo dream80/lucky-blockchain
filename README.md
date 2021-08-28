@@ -9,8 +9,7 @@ Just delete the config file (Path C:\Users\tony.lucky\mainnet\config Folder. Ton
 
 ![iamge](guide/img/Importants.jpg)  
 
-If you want to get more coins, be quick. The block reward will change from 18 to 6 in a few days, specifically after the block height reaches **138240**.
-
+If you want to get more coins, be quick. The block reward will change from 18 to 6 in a few days, specifically after the block height reaches **138240**. (The reward has changed from 18 to 6 , 666 Special rewards will always exist)
 
 # What is Lucky
 
