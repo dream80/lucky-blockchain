@@ -100,6 +100,6 @@ else
 fi
 
 echo ""
-echo "Chia blockchain install-gui.sh completed."
+echo "Lucky blockchain install-gui.sh completed."
 echo ""
 echo "Type 'cd chia-blockchain-gui' and then 'npm run electron &' to start the GUI."

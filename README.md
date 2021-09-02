@@ -36,23 +36,23 @@ If you worship him, give him lucky
 
 # Change
 
-Block Reword :  
+Block Reward :  
 total :18six, farmer:12,pool:6 (first month)  
-total :6six,  framer:4, pool:2 (first three year)  
-total :3six,  framer:2, pool:1 (second three years)  
-....three year ,half reword...  
+total :6six,  farmer:4, pool:2 (first three year)  
+total :3six,  farmer:2, pool:1 (second three years)  
+....three year ,half reward...  
 After 12 years, it will remain unchanged  
 
 
-Special Reword(Benefit the latecomers):  
+Special Reward(Benefit the latecomers):  
 
 Find the height of the block with the end of 6, and there is a special reward  
-Special reword will not be halved, it will remain the same  
+Special reward will not be halved, it will remain the same  
 
-ends with 6 , reword 6  
-ends with 66 , reword 66  
-ends with 666 , reword 666  
-ends with 6666 , reword 666  
+ends with 6 , reward 6  
+ends with 66 , reward 66  
+ends with 666 , reward 666  
+ends with 6666 , reward 666  
 
 666 is the biggest reward  
 
