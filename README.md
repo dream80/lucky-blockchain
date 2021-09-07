@@ -38,11 +38,12 @@ If you worship him, give him lucky
 # How to use lucky
 
 Lucky can be used as a blockchain gift coin
-We hope that lucky will be used to like(点赞), reward（打赏）, donate（捐赠）, and pay for knowledge（知识付费）.
+We hope that lucky will be used to like(点赞), reward（打赏）, donate（捐赠）, and pay for knowledge（知识付费）.  
 If you like a person,  
 like his creation,   
 like his contribution,   
-give him some lucky, 
+give him some LUCKY,   
+
 hope he can have better luck and create better things  
 
 Everyone is the node and center of this world, if they do great things, they deserve to be encouraged  
@@ -103,8 +104,8 @@ Join the group, you can get lucky coins for free , We plan to send some lucky co
 
 # Website
 Official website  
-[www.luckysix.top](https://www.luckysix.top/)
-[Twtiiter](https://www.luckysix.top/)  
+[www.luckysix.top](https://www.luckysix.top/)  
+[Twitter](https://twitter.com/LuckySixChain)  
   
 
 Others  
