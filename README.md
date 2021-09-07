@@ -34,7 +34,24 @@ If you worship him, give him lucky
 
 [What does 666 mean?] (https://baike.baidu.com/item/666/17192634)
 
+
+# How to use lucky
+
+Lucky can be used as a blockchain gift coin
+We hope that lucky will be used to like(点赞), reward（打赏）, donate（捐赠）, and pay for knowledge（知识付费）.
+If you like a person,  
+like his creation,   
+like his contribution,   
+give him some lucky, 
+hope he can have better luck and create better things  
+
+Everyone is the node and center of this world, if they do great things, they deserve to be encouraged  
+
+Price is not equal to value, but value needs to be reflected by price. If possible, we will also seek listing. 
+
+
 # Change
+
 
 Block Reward :  
 total :18six, farmer:12,pool:6 (first month)  
@@ -58,6 +75,7 @@ ends with 6666 , reward 666
 
 support Old Plot (chia 1.1.17-) and New NFT Plot (chia 1.2.0+)  
 
+PreFarm: 666,666six  
 
 
 # DownLoad 
@@ -79,11 +97,21 @@ Latest DB file
 
 Join the group, you can get lucky coins for free , We plan to send some lucky coins to group members every week  
 
-[QQ](https://jq.qq.com/?_wv=1027&k=RJp9meKz)
-[Discord](https://discord.gg/pgdj4snppb)
+[Discord](https://discord.gg/pgdj4snppb)  
+[QQ](https://jq.qq.com/?_wv=1027&k=RJp9meKz)  
+
 
 # Website
+Official website  
 [www.luckysix.top](https://www.luckysix.top/)
+[Twtiiter](https://www.luckysix.top/)  
+  
+
+Others  
+[Blockexplorer](https://alltheblocks.net/lucky)  
+[xchfokrs](https://xchforks.com/lucky/)  
+[chiaforkscalculator](https://chiaforkscalculator.com/lucky)  
+
 
 # FullNode
 
@@ -96,27 +124,38 @@ node:introducer.luckysix.top, Port:16665
 ![iamge](guide/img/connect2.jpg)  
 
 
-IP list:
-122.51.136.140  
-52.206.11.255  
-73.150.163.222  
-31.172.141.220  
-31.181.135.146  
-61.140.126.28  
+IP list，port:16664  
 47.98.232.124  
-60.174.207.85  
-37.143.230.9  
+31.206.76.246  
+114.23.201.128  
+162.255.13.151  
+179.223.212.224  
+119.204.14.65  
+194.96.178.6  
+89.178.1.172  
+202.184.203.184  
+120.245.60.77  
+118.250.3.241  
+176.15.219.57  
+124.77.29.143  
+96.3.26.205  
+78.139.82.160  
+117.4.243.27  
+202.153.222.37  
+83.99.251.138  
+170.250.224.112  
 212.28.70.28  
-183.88.137.104  
-47.203.88.94  
-116.62.247.3  
-157.90.3.141  
-60.174.207.85  
-93.91.157.22  
-port:16664  
+31.19.149.2  
+116.85.36.228  
+39.120.60.133  
+122.116.254.215  
+62.197.209.47  
+178.254.220.4  
+
 
 ![iamge](guide/img/connect3.jpg)  
 
+[xchforks]https://xchforks.com/lucky/  
 [MoreNode]https://penny-faucets-for-chia-forks.net/peers/#Lucky-SIX  
 
 
@@ -153,7 +192,16 @@ There are several ways to share your own nodes:
 2. DMZ
 
 3. upnp
+  
+*If your Farmer PC have a public IP, you don’t need to do anything
+
+
+## How to retrieve NFT pool rewards
+
+In lucky, the old plots are 100% reward, and the new plot has 2/3.   
+If you want to retrieve the other 1/3, you can refer to it  
+https://github.com/Flora-Network/fd-cli
 
 
 ## Any other questions?
-Join Discord or QQ
+Join [Discord](https://discord.gg/pgdj4snppb) or [QQ](https://jq.qq.com/?_wv=1027&k=RJp9meKz)  
