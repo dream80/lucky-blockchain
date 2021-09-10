@@ -193,7 +193,7 @@ class HarvesterAPI:
                     # Passes the plot filter (does not check sp filter yet though, since we have not reached sp)
                     # This is being executed at the beginning of the slot
                     total += 1
-                    if ProofOfSpace.passes_plot_filter(
+                    if ProofOfSpace.passes_local_plot_filter(
                         self.harvester.constants,
                         try_plot_info.prover.get_id(),
                         new_challenge.challenge_hash,
