@@ -82,9 +82,9 @@ PreFarm: 666,666six
 # DownLoad 
 
 Installation package  
-[Windows](https://github.com/dream80/lucky-blockchain/releases/download/v1.2.10.10/LuckySetup-1.2.10.10.exe)
+[Windows](https://github.com/dream80/lucky-blockchain/releases/download/v1.2.10.10/LuckySetup-1.2.10.10.exe
+[Ubuntu20.04](https://www.luckysix.top/Lucky-1.2.10.10_amd64.deb)  
 
-Linux Coming soon  
 MacOS Coming soon  
 
 
