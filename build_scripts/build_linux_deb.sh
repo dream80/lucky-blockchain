@@ -5,10 +5,10 @@ if [ ! "$1" ]; then
 	exit 1
 elif [ "$1" = "amd64" ]; then
 	PLATFORM="$1"
-	DIR_NAME="chia-blockchain-linux-x64"
+	DIR_NAME="lucky-blockchain-linux-x64"
 else
 	PLATFORM="$1"
-	DIR_NAME="chia-blockchain-linux-arm64"
+	DIR_NAME="lucky-blockchain-linux-arm64"
 fi
 
 pip install setuptools_scm
@@ -21,7 +21,7 @@ if [ ! "$CHIA_INSTALLER_VERSION" ]; then
 	echo "WARNING: No environment variable CHIA_INSTALLER_VERSION set. Using 0.0.0."
 	CHIA_INSTALLER_VERSION="0.0.0"
 fi
-echo "Chia Installer Version is: $CHIA_INSTALLER_VERSION"
+echo "Lucky Installer Version is: $CHIA_INSTALLER_VERSION"
 
 echo "Installing npm and electron packagers"
 npm install electron-packager -g
@@ -55,8 +55,8 @@ if [ "$LAST_EXIT_CODE" -ne 0 ]; then
 	exit $LAST_EXIT_CODE
 fi
 
-electron-packager . chia-blockchain --asar.unpack="**/daemon/**" --platform=linux \
---icon=src/assets/img/Chia.icns --overwrite --app-bundle-id=net.chia.blockchain \
+electron-packager . lucky-blockchain --asar.unpack="**/daemon/**" --platform=linux \
+--icon=src/assets/img/Chia.icns --overwrite --app-bundle-id=net.lucky.blockchain \
 --appVersion=$CHIA_INSTALLER_VERSION
 LAST_EXIT_CODE=$?
 if [ "$LAST_EXIT_CODE" -ne 0 ]; then
@@ -67,7 +67,7 @@ fi
 mv $DIR_NAME ../build_scripts/dist/
 cd ../build_scripts || exit
 
-echo "Create chia-$CHIA_INSTALLER_VERSION.deb"
+echo "Create lucky-$CHIA_INSTALLER_VERSION.deb"
 rm -rf final_installer
 mkdir final_installer
 electron-installer-debian --src dist/$DIR_NAME/ --dest final_installer/ \
