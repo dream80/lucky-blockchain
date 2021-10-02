@@ -198,7 +198,8 @@ https://alltheblocks.net/nft-recovery
 https://github.com/Flora-Network/fd-cli  
 
 
-##How to buy and sell?
+## How to buy and sell?  
+
 [forksgreen](https://www.forks.green)    
 [chianow](https://chianow.net)   
 
