@@ -1,16 +1,7 @@
-### Please download the latest version(LuckySetup-1.2.10.10), otherwise it will fail to sync  
+## Everyone, Good Luck!  
 
-Update is simple
-Just delete the config file (Path C:\Users\tony.lucky\mainnet\config Folder. Tony is your computer username) and install the new version  
-
-
-
-##  Act fast
-
-![iamge](guide/img/Importants.jpg)  
-
-If you want to get more coins, be quick. The block reward will change from 18 to 6 in a few days, specifically after the block height reaches **138240**. (The reward has changed from 18 to 6 , 666 Special rewards will always exist)
-
+![iamge](guide/img/lucky.gif)  
+  
 # What is Lucky
 
 There is no doubt that this is a FORK of chia, but we use it to express different meanings
@@ -82,8 +73,9 @@ PreFarm: 666,666six
 # DownLoad 
 
 Installation package  
+
 [Windows](https://github.com/dream80/lucky-blockchain/releases/download/v1.2.10.10/LuckySetup-1.2.10.10.exe)
-[Ubuntu20.04](https://www.luckysix.top/Lucky-1.2.10.11_amd64.deb)  
+[Ubuntu20.04](hhttps://github.com/dream80/lucky-blockchain/releases/download/v1.2.10.11/lucky-1.2.10.11_amd64.deb)  
 
 MacOS Coming soon  
 
@@ -91,7 +83,7 @@ MacOS Coming soon
 Latest DB file  
 [MEGA](https://mega.nz/folder/nT5FUa7I#aY_FbOMtRz6b4dWkKFib3g)  
 [GoogleDrive](https://drive.google.com/drive/folders/1SD5fq_h8-Gel0bKIjtsJOcTDKfj99FCC?usp=sharing)  
-[BaiduPan](https://pan.baidu.com/s/1I2xBHdXE1jJJGvgXNOz47A)(code:tony)  
+[BaiduPan](https://pan.baidu.com/s/1I2xBHdXE1jJJGvgXNOz47A)(code:kk7w)  
 
 
 # Group  
@@ -112,7 +104,8 @@ Others
 [Blockexplorer](https://alltheblocks.net/lucky)  
 [xchfokrs](https://xchforks.com/lucky/)  
 [chiaforkscalculator](https://chiaforkscalculator.com/lucky)  
-[market](https://www.forks.green/)  
+[forksgreen](https://www.forks.green)    
+[chianow](https://chianow.net)   
 
 # FullNode
 
@@ -182,7 +175,7 @@ The sync is too slow and the coins are token by others, what should I do? The qu
 
 The local DB file path is generally: C:\Users\tony\\.lucky\mainnet\  **tony** is the user name of your computer
 
-## How to get more coins
+## How to get more coins?
 
 In the case that the plots file remains unchanged, you can get a higher probability of block explosions by making yourself a shared node
 
@@ -197,12 +190,24 @@ There are several ways to share your own nodes:
 *If your Farmer PC have a public IP, you don’t need to do anything
 
 
-## How to retrieve NFT pool rewards
+## How to retrieve NFT pool rewards?
 
 In lucky, the old plots are 100% reward, and the new plot has 2/3.   
 If you want to retrieve the other 1/3, you can refer to it  
-https://github.com/Flora-Network/fd-cli
+https://alltheblocks.net/nft-recovery  
+https://github.com/Flora-Network/fd-cli  
 
+
+##How to buy and sell?
+[forksgreen](https://www.forks.green)    
+[chianow](https://chianow.net)   
+
+step:  
+1. Registration  
+2. Deposit  
+3. Transactions  
+4. Withdraw  
+  
 
 ## Any other questions?
 Join [Discord](https://discord.gg/pgdj4snppb) or [QQ](https://jq.qq.com/?_wv=1027&k=RJp9meKz)  
